@@ -1,0 +1,15 @@
+{
+  "name": "oguzcabuk07/CoolDB",
+  "description": "Mysql Class with PDO",
+  "minimum-stability": "alpha",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "oGuz",
+      "email": "me@oguzcabuk.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  }
+}
