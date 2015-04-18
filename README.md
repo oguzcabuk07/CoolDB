@@ -1,6 +1,6 @@
 # CoolDB
 
-Mysql class width PDO
+Mysql class with PDO
 
 ### Usage
 
