@@ -367,7 +367,7 @@ class DB {
 	 */
 	private function connect() {
 		try {
-			$this->db = new \PDO('mysql:host=' . DBHOST .';dbname=' . DBNAME,
+			$this->db = new \PDO('mysql:host=' . DBHOST .';dbname=' . DBNAME . ';charset=utf8',
 				DBUSER,
 				DBPASS,
 				[\PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_OBJ]
